@@ -130,7 +130,6 @@
               <p class="text-sm md:text-md text-gray-300">
                 A lightweight and high-customizable data-table based on vue-3
                 available on NPM. <br />
-                <br />
                 Paginate, Sort and Filter your tables with ease.
               </p>
             </div>

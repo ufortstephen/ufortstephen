@@ -187,19 +187,19 @@
             <h4 class="text-md md:text-xl text-gray-300 my-5">January 2021</h4>
             <div class="text-justify mx-5 md:mx-10">
               <ul class="list-disc text-gray-300 lg:w-9/12">
-                <li class="text-sm md:text-lg my-3">Self learning.</li>
-                <li class="text-sm md:text-lg my-3">
+                <li cclass="text-sm md:text-md my-5">Self learning.</li>
+                <li cclass="text-sm md:text-md my-5">
                   Mentored over 50 stedents on acquiring valuable Web
                   Development Skills.
                 </li>
-                <li class="text-sm md:text-lg my-3">
+                <li cclass="text-sm md:text-md my-5">
                   Created more than 20 web application landing pages with HTML5
                   and CSS3.
                 </li>
-                <li class="text-sm md:text-lg my-3">
+                <li cclass="text-sm md:text-md my-5">
                   Used CSS/Bootstrap to design multiple responsive web apps.
                 </li>
-                <li class="text-sm md:text-lg my-3">More learning....</li>
+                <li cclass="text-sm md:text-md my-5">More learning....</li>
               </ul>
             </div>
           </div>
