@@ -1,0 +1,40 @@
+:root {
+  --text-pink: #ff8098;
+  --text-yellow: #f2c94c;
+  --text-blue: #2f80ed;
+  --text-green: #84e296;
+  --text-red: #ff8098;
+}
+body {
+  scroll-behavior: smooth;
+}
+.text-pink {
+  color: var(--text-pink);
+}
+.bg-pink {
+  background-color: var(--text-pink);
+}
+.text-yellow {
+  color: var(--text-yellow);
+}
+.bg-yellow {
+  background-color: var(--text-yellow);
+}
+.text-blue {
+  color: var(--text-blue);
+}
+.bg-blue {
+  background-color: var(--text-blue);
+}
+.text-green {
+  color: var(--text-green);
+}
+.bg-green {
+  background-color: var(--text-green);
+}
+.text-red {
+  color: var(--text-red);
+}
+.bg-red {
+  background-color: var(--text-red);
+}
