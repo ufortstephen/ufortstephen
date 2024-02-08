@@ -1,4 +1,4 @@
-# Hey there, Internet Wanderer! 👋 I'm Stephen Ufort!
+# Hey there, Internet Wanderer! 👋 I'm Ufort Stephen!
 
 ![Software Developer | Backend & Frontend Roles | Leader]([https://pbs.twimg.com/profile_banners/847278414/1549621220/1500x500](https://ourdeal.co.uk/wp-content/uploads/2023/07/Is-an-Apple-Mac-Laptop-Good-for-Learning-Programming.jpg))
 
