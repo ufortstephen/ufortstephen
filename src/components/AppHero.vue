@@ -11,7 +11,7 @@
           <p class="author__overview text-md md:text-xl">
             I’m a
             <a href="" class="text-green">
-              Frontend Developer and Software Engineer.</a
+              Blockchain Developer and Software Engineer</a
             >
             specializing in building exceptional software. I help Designers,
             agencies and businesses bring their ideas into life by implementing
@@ -153,7 +153,7 @@ const stacks = ref([
   { stack: "JavaScript", class: "text-red" },
   { stack: "React", class: "text-yellow" },
   { stack: "Vue", class: "text-green" },
-  { stack: "React Native", class: "text-blue" },
+  { stack: "Solidity", class: "text-blue" },
   { stack: "Typescript", class: "text-red" },
   { stack: "Web3.js", class: "text-yellow" },
   { stack: ".... and many more", class: "text-green" },

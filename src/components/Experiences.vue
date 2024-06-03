@@ -83,7 +83,7 @@
               class="leading-tight text-xl md:text-2xl mt-0 mb-2 text-white font-bold font-mono"
               style="font-family: 'DM Sans', sans-serif"
             >
-              FrontEnd Engineer
+              Blockchain Engineer
               <span class="text-red md:pr-0"> @ Blockmay</span>
             </h1>
 
@@ -166,7 +166,7 @@
                   Creating, maintaining, and enforcing front-end code and
                   documentation standards.
                 </li>
-                <li class="text-sm md:text-md my-3">More Learning....</li>
+                <!-- <li class="text-sm md:text-md my-3">More Learning....</li> -->
               </ul>
             </div>
           </div>

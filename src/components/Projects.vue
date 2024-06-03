@@ -35,6 +35,150 @@
           >
             <div class="p-10 pt-5">
               <div class="flex justify-between mb-10">
+                <a href="#">
+                  <CIcon
+                    :icon="cibGithub"
+                    size="md"
+                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
+                  />
+                </a>
+
+                <a href="https://app.tiwiflix.io/" class="text-green">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 fill-green"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="font-bold text-xl mb-5">
+                <a
+                  href="https://app.tiwiflix.io/"
+                  class="hover:underline text-md md:text-2xl"
+                  target="_blank"
+                >
+                  TiwiFlix
+                </a>
+              </div>
+              <p class="text-sm md:text-md text-gray-300">
+                TiwiFlix is a video and live-streaming decentralized application
+                designed to offer Web 3.0 solutions to video-on-demand and
+                live-streaming services.
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div
+            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
+          >
+            <div class="p-10 pt-5">
+              <div class="flex justify-between mb-10">
+                <a href="#">
+                  <CIcon
+                    :icon="cibGithub"
+                    size="md"
+                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
+                  />
+                </a>
+
+                <a href="https://starface.vercel.app" class="text-green">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 fill-green"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="font-bold text-xl mb-5">
+                <a
+                  href="https://starface.vercel.app"
+                  class="hover:underline text-md md:text-2xl"
+                  target="_blank"
+                >
+                  Starface
+                </a>
+              </div>
+              <p class="text-sm md:text-md text-gray-300">
+                Starface is a Web3 Social Media platform developed for Content
+                Creators where they can earn from interactions with their
+                contents.
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
+          >
+            <div class="p-10 pt-5">
+              <div class="flex justify-between mb-10">
+                <a href="#">
+                  <CIcon
+                    :icon="cibGithub"
+                    size="md"
+                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
+                  />
+                </a>
+
+                <a href="https://live.tiwiflix.io/" class="text-green">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 fill-green"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="font-bold text-xl mb-5">
+                <a
+                  href="https://live.tiwiflix.io/"
+                  class="hover:underline text-md md:text-2xl"
+                  target="_blank"
+                >
+                  TiwiFlix Live Stream
+                </a>
+              </div>
+              <p class="text-sm md:text-md text-gray-300">
+                A Web3 Live Streaming Platform that allowers  creators to broadcast live videos to their followers in real-time. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <swiper-slide>
+          <div
+            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
+          >
+            <div class="p-10 pt-5">
+              <div class="flex justify-between mb-10">
                 <a
                   href="https://github.com/ufortstephen/ticketboy-app"
                   target="_blank"
@@ -67,6 +211,7 @@
                 <a
                   href="https://tiketboy.netlify.app/"
                   class="hover:underline text-md md:text-2xl"
+                  target="_blank"
                 >
                   TickeyBoy
                 </a>
@@ -79,6 +224,7 @@
             </div>
           </div>
         </swiper-slide>
+
         <swiper-slide>
           <div
             class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-0 md:my-0"
@@ -129,121 +275,12 @@
               </div>
               <p class="text-sm md:text-md text-gray-300">
                 A lightweight and high-customizable data-table based on vue-3
-                available on NPM. <br />
-                Paginate, Sort and Filter your tables with ease.
+                available on NPM. 
               </p>
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-0 md:my-0"
-          >
-            <div class="p-10 pt-5">
-              <div class="flex justify-between mb-10">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  />
-                </svg>
-                <a href="https://leadfromdemo.netlify.app/" class="text-green">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://leadfromdemo.netlify.app/"
-                  class="hover:underline text-md md:text-2xl"
-                >
-                  LeadFrom
-                </a>
-              </div>
-              <p class="text-sm md:text-md text-gray-300">
-                Cutting edge e-governance sytem that brings you access to all
-                local government services with just click of a button. From
-                getting your Certificate of Origin to Paying your Taxes.
-              </p>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-0 md:my-0"
-          >
-            <div class="p-10 pt-5">
-              <div class="flex justify-between mb-10">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  />
-                </svg>
-                <a
-                  href="https://royaltalenthunt.netlify.app/"
-                  class="text-green"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://royaltalenthunt.netlify.app/"
-                  class="hover:underline text-md md:text-2xl"
-                >
-                  Royal Talent Hunt
-                </a>
-              </div>
-              <p class="text-sm md:text-md text-gray-300">
-                A talent exhibition which is open to all BCS Youths (Group or
-                individual) that we believe will develop the youths to compete
-                at National and International Level.
-              </p>
-            </div>
-          </div>
-        </swiper-slide>
+        
       </swiper>
     </div>
   </div>

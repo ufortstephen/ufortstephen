@@ -12,12 +12,12 @@
     >
       <div class="space-y-5">
         <h5 class="text-md md:text-lg text-gray-300">
-          I’m an Frontend Developer with over 3 years of programming experience
-          and 2 years of professional experience building elegant UIs and
-          functional Native and Web Applications.
+          I’m an Frontend Developer with over 5 years of programming experience
+          and 4 years of professional experience building elegant UIs and
+          functional Blockchain and Web Applications.
         </h5>
         <h5 class="text-md md:text-lg text-gray-300">
-          I use frameworks like Vue.js, React.js, TypeScript and React Native to
+          I use frameworks like Vue.js, React.js, Solidity, Web3.js, TypeScript and React Native to
           consume APIs and build scalable applications.
         </h5>
         <h5 class="text-md md:text-lg text-gray-300">
