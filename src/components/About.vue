@@ -12,8 +12,8 @@
     >
       <div class="space-y-5">
         <h5 class="text-md md:text-lg text-gray-300">
-          I’m an Frontend Developer with over 5 years of programming experience
-          and 4 years of professional experience building elegant UIs and
+          I’m an Software Engineer with over 4 years of programming experience
+          and 3 years of professional experience building elegant UIs and
           functional Blockchain and Web Applications.
         </h5>
         <h5 class="text-md md:text-lg text-gray-300">

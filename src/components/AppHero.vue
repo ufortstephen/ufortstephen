@@ -10,9 +10,7 @@
           </h2>
           <p class="author__overview text-md md:text-xl">
             I’m a
-            <a href="" class="text-green">
-              Blockchain Developer and Software Engineer</a
-            >
+            <a href="" class="text-green"> Software Engineer</a>
             specializing in building exceptional software. I help Designers,
             agencies and businesses bring their ideas into life by implementing
             responsive web and mobile applications, and landing pages from
