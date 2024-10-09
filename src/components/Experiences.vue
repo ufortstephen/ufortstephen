@@ -11,8 +11,15 @@
           class="nav lg:basis-2/4 nav-tabs font-mono flex md:flex-col flex-nowrap md:flex-wrap list-none border-b-0 pl-0 mr-4 overflow-scroll md:overflow-hidden"
           id="tabs-tabVertical" role="tablist">
           <li class="nav-item flex-grow text-center" role="presentation">
-            <a href="#tabs-AutoMagic"
+            <a href="#tabs-Pixeldym"
               class="w-max nav-link block font-medium text-md md:text-xl leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent focus:border-transparent active py-5"
+              id="tabs-pixeldym-Vertical" data-bs-toggle="pill" data-bs-target="#tabs-Pixeldym" role="tab"
+              aria-controls="tabs-Pixeldym" aria-selected="false">Pixeldym
+            </a>
+          </li>
+          <li class="nav-item flex-grow text-center" role="presentation">
+            <a href="#tabs-AutoMagic"
+              class="w-max nav-link block font-medium text-md md:text-xl leading-tight border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent focus:border-transparent py-5"
               id="tabs-automagic-Vertical" data-bs-toggle="pill" data-bs-target="#tabs-AutoMagic" role="tab"
               aria-controls="tabs-AutoMagic" aria-selected="false">AutoMagic
             </a>
@@ -45,7 +52,34 @@
           </li>
         </ul>
         <div class="tab-content" id="tabs-blockmayContentVertical">
-          <div class="tab-pane fade show active" id="tabs-AutoMagic" role="tabpanel"
+          <div class="tab-pane fade show active" id="tabs-Pixeldym" role="tabpanel"
+            aria-labelledby="tabs-Pixeldym-tabVertical">
+            <h1 class="leading-tight text-xl md:text-2xl  lg:w-9/12 lg:ml-auto mt-0 mb-2 text-white font-bold font-mono"
+              style="font-family: 'DM Sans', sans-serif">
+              Blockchain Engineer
+              <span class="text-red md:pr-0"> @ Pixeldym</span>
+            </h1>
+
+            <h4 class="text-md md:text-md text-gray-300 my-5 lg:w-9/12 lg:ml-auto">April 2024</h4>
+            <div class="text-justify mx-5 md:mx-10">
+              <ul class="list-disc text-gray-300 lg:w-9/12 lg:ml-auto">
+                <li class="text-sm md:text-lg my-5">
+                  As a Blockchain Engineer for Pixeldym, I specialize in writing, testing, and deploying smart contracts,
+                  integratinf blockchain solutions with existing applications and databases and developing APIs to interact with blockchain networks.
+                </li>
+                <li class="text-sm md:text-lg my-5">
+                  Led the design and implementation of a company's maiden Meme Token on ETH
+                </li>
+                <li class="text-sm md:text-lg my-5">
+                  Built a multi-signature wallet solution for institutional clients, providing enhanced security for cryptocurrency assets.
+                </li>
+                <li class="text-sm md:text-lg my-5">
+                  Wrote Smart Contract for trade executions on the first WhatsApp trading bot.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade show" id="tabs-AutoMagic" role="tabpanel"
             aria-labelledby="tabs-AutoMagic-tabVertical">
             <h1 class="leading-tight text-xl md:text-2xl  lg:w-9/12 lg:ml-auto mt-0 mb-2 text-white font-bold font-mono"
               style="font-family: 'DM Sans', sans-serif">
