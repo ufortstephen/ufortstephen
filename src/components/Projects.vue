@@ -1,9 +1,7 @@
 <template>
   <div class="max-w-100 mx-auto px-6 lg:px-20 mt-5 lg:mt-20 pb-20" id="blog">
     <div class="grid">
-      <h1
-        class="leading-tight text-xl md:text-2xl mt-0 mb-2 text-white font-bold"
-      >
+      <h1 class="leading-tight text-xl md:text-2xl mt-0 mb-2 text-white font-bold">
         <span class="text-red font-mono md:pr-0">03.</span> Projects
       </h1>
     </div>
@@ -19,53 +17,114 @@
       </div>
     </div> -->
     <div class="md:pl-20 my-10">
-      <swiper
-        :modules="modules"
-        :slides-per-view="currentScreenWidth >= 1000 ? 3 : 1"
-        :space-between="50"
-        :pagination="{ clickable: true }"
-        navigation
-        @swiper="onSwiper"
-        @slideChange="onSlideChange"
-        autoplay="true"
-      >
+      <swiper :modules="modules" :slides-per-view="currentScreenWidth >= 1000 ? 3 : 1" :space-between="50"
+        :pagination="{ clickable: true }" navigation @swiper="onSwiper" @slideChange="onSlideChange" autoplay="true">
         <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
-          >
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
             <div class="p-10 pt-5">
               <div class="flex justify-between mb-10">
                 <a href="#">
-                  <CIcon
-                    :icon="cibGithub"
-                    size="md"
-                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
-                  />
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
                 </a>
 
-                <a href="https://app.tiwiflix.io/" class="text-green">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
+                <a href="https://tynuev.com" class="text-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
               </div>
               <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://app.tiwiflix.io/"
-                  class="hover:underline text-md md:text-2xl"
-                  target="_blank"
-                >
+                <a href="https://tynuev.com" class="hover:underline text-md md:text-2xl" target="_blank">
+                  TYNU
+                </a>
+              </div>
+              <p class="text-sm md:text-md text-gray-300">
+                Buy, rent and swap an electrical bike for great experiences with amazing features from any of our listed
+                locations.
+                <br />
+                &nbsp;
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
+            <div class="p-10 pt-5">
+              <div class="flex justify-between mb-10">
+                <a href="#">
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
+                </a>
+
+                <a href="https://www.wovenremit.com/" class="text-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+              <div class="font-bold text-xl mb-5">
+                <a href="https://www.wovenremit.com/" class="hover:underline text-md md:text-2xl" target="_blank">
+                  Wovenremit
+                </a>
+              </div>
+              <p class="text-sm md:text-md text-gray-300">
+                Get real-time exchange rates, currency conversion tools, and financial intelligence.
+                <br />
+                <br />
+                &nbsp;
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
+            <div class="p-10 pt-5">
+              <div class="flex justify-between mb-10">
+                <a href="#">
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
+                </a>
+
+                <a href="https://wregpay.com/" class="text-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+              <div class="font-bold text-xl mb-5">
+                <a href="https://wregpay.com/" class="hover:underline text-md md:text-2xl" target="_blank">
+                  WregPay
+                </a>
+              </div>
+              <p class="text-sm md:text-md text-gray-300">
+                Helping businesses meet the required needs by automating and supporting your business processes in the
+                most easiest and simplest way possible.
+              </p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
+            <div class="p-10 pt-5">
+              <div class="flex justify-between mb-10">
+                <a href="#">
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
+                </a>
+
+                <a href="https://app.tiwiflix.io/" class="text-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+              <div class="font-bold text-xl mb-5">
+                <a href="https://app.tiwiflix.io/" class="hover:underline text-md md:text-2xl" target="_blank">
                   TiwiFlix
                 </a>
               </div>
@@ -79,43 +138,24 @@
         </swiper-slide>
 
         <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
-          >
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
             <div class="p-10 pt-5">
               <div class="flex justify-between mb-10">
                 <a href="https://apps.onthejob.ng/" target="_blank">
-                  <CIcon
-                    :icon="cibGithub"
-                    size="md"
-                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
-                  />
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
                 </a>
 
                 <a href="https://apps.onthejob.ng/" class="text-green">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
               </div>
 
               <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://apps.onthejob.ng/"
-                  class="hover:underline text-md md:text-2xl"
-                  target="_blank"
-                >
+                <a href="https://apps.onthejob.ng/" class="hover:underline text-md md:text-2xl" target="_blank">
                   OnTheJob
                 </a>
               </div>
@@ -129,42 +169,23 @@
         </swiper-slide>
 
         <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
-          >
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
             <div class="p-10 pt-5">
               <div class="flex justify-between mb-10">
                 <a href="#">
-                  <CIcon
-                    :icon="cibGithub"
-                    size="md"
-                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
-                  />
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
                 </a>
 
                 <a href="https://live.tiwiflix.io/" class="text-green">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
               </div>
               <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://live.tiwiflix.io/"
-                  class="hover:underline text-md md:text-2xl"
-                  target="_blank"
-                >
+                <a href="https://live.tiwiflix.io/" class="hover:underline text-md md:text-2xl" target="_blank">
                   TiwiFlix Live Stream
                 </a>
               </div>
@@ -180,42 +201,23 @@
         </swiper-slide>
 
         <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
-          >
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
             <div class="p-10 pt-5">
               <div class="flex justify-between mb-10">
                 <a href="#">
-                  <CIcon
-                    :icon="cibGithub"
-                    size="md"
-                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
-                  />
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
                 </a>
 
                 <a href="https://starface.vercel.app" class="text-green">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
               </div>
               <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://starface.vercel.app"
-                  class="hover:underline text-md md:text-2xl"
-                  target="_blank"
-                >
+                <a href="https://starface.vercel.app" class="hover:underline text-md md:text-2xl" target="_blank">
                   Starface
                 </a>
               </div>
@@ -229,45 +231,23 @@
         </swiper-slide>
 
         <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5"
-          >
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-5 mb-10 md:my-0 md:mb-5">
             <div class="p-10 pt-5">
               <div class="flex justify-between mb-10">
-                <a
-                  href="https://github.com/ufortstephen/ticketboy-app"
-                  target="_blank"
-                >
-                  <CIcon
-                    :icon="cibGithub"
-                    size="md"
-                    class="w-6 h-6 text-white fill-white hover:fill-lime-600"
-                  />
+                <a href="https://github.com/ufortstephen/ticketboy-app" target="_blank">
+                  <CIcon :icon="cibGithub" size="md" class="w-6 h-6 text-white fill-white hover:fill-lime-600" />
                 </a>
 
                 <a href="https://tiketboy.netlify.app/" class="text-green">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
               </div>
               <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://tiketboy.netlify.app/"
-                  class="hover:underline text-md md:text-2xl"
-                  target="_blank"
-                >
+                <a href="https://tiketboy.netlify.app/" class="hover:underline text-md md:text-2xl" target="_blank">
                   TickeyBoy
                 </a>
               </div>
@@ -281,50 +261,25 @@
         </swiper-slide>
 
         <swiper-slide>
-          <div
-            class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-0 md:my-0"
-          >
+          <div class="rounded overflow-hidden shadow-lg bg-article cursor-pointer mt-0 md:my-0">
             <div class="p-10 pt-5">
               <div class="flex justify-between mb-10">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
-                <a
-                  href="https://www.npmjs.com/package/vue3-datatable-component"
-                  class="text-green"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 fill-green"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
+                <a href="https://www.npmjs.com/package/vue3-datatable-component" class="text-green">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-green" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </a>
               </div>
               <div class="font-bold text-xl mb-5">
-                <a
-                  href="https://www.npmjs.com/package/vue3-datatable-component"
-                  class="hover:underline text-md md:text-2xl"
-                >
+                <a href="https://www.npmjs.com/package/vue3-datatable-component"
+                  class="hover:underline text-md md:text-2xl">
                   Vue Table (NPM Package)
                 </a>
               </div>
@@ -379,6 +334,7 @@ export default {
 .swiper-wrapper {
   padding-bottom: 2rem;
 }
+
 .swiper-pagination {
   bottom: 0 !important;
 }
@@ -388,6 +344,7 @@ export default {
   font-size: 10px !important;
   color: #84e296;
 }
+
 .swiper-button-next:after,
 .swiper-button-prev:after {
   font-size: 16px !important;
