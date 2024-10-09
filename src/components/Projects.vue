@@ -349,4 +349,8 @@ export default {
 .swiper-button-prev:after {
   font-size: 16px !important;
 }
+
+.swiper-slide {
+  min-width: 300px !important;
+}
 </style>
