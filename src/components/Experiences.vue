@@ -45,7 +45,7 @@
           </li>
         </ul>
         <div class="tab-content" id="tabs-blockmayContentVertical">
-          <div class="tab-pane fade show" id="tabs-AutoMagic" role="tabpanel"
+          <div class="tab-pane fade show active" id="tabs-AutoMagic" role="tabpanel"
             aria-labelledby="tabs-AutoMagic-tabVertical">
             <h1 class="leading-tight text-xl md:text-2xl  lg:w-9/12 lg:ml-auto mt-0 mb-2 text-white font-bold font-mono"
               style="font-family: 'DM Sans', sans-serif">
